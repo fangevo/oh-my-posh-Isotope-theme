@@ -74,7 +74,7 @@ function Invoke-Eza {
     eza.exe --icons -a @args
 }
 Set-Alias -Name ls -Value Invoke-Eza
-$env:EZA_CONFIG_DIR = "$env:USERPROFILE\.config\eza"```
+$env:EZA_CONFIG_DIR = "$env:USERPROFILE\.config\eza"
 ```
 - ### VS Code Setting
 For the VS Code terminal, please use the CaskaydiaCove Nerd Font instead of other Nerd Fonts. In my tests, using other Nerd Fonts may cause issues with missing icons or layout misalignment in the VS Code terminal, possibly due to VS Code's renderer.

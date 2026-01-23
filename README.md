@@ -91,10 +91,12 @@ auto_activate_base: false
 ```
 
 ### Git Bash experiences screen flickering when pressing backspace in Windows Terminal.
-Add the line set bell-style none to ~/.inputrc (create the file if it doesn't exist).
+Add the line ```set bell-style``` none to ~/.inputrc (create the file if it doesn't exist).
 
 ### Font background turns black after deleting text in PowerShell
 ![image](https://github.com/user-attachments/assets/f14232cc-47a3-452d-b144-6364d8978869)
 Use this command to update PSReadline to solve the problem.
 ```Update-Module PSReadline```
+If you encounter the error “Update-Module: Module ‘PSReadLine’ was not installed by using Install-Module,” please use the following command to install the latest version: 
+```Install-Module PSReadline -Force -AllowClobber -Scope CurrentUser```
 

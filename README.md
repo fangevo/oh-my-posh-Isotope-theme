@@ -1,4 +1,4 @@
-# OhMyPosh-WoW-Theme
+# OhMyPosh-Isotope-Theme
 ## Introduction
 **Perfect display effect**
 ![image](https://github.com/user-attachments/assets/b649e474-c54a-47a3-aa25-daa3f3bf75d1)
